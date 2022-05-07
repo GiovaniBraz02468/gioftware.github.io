@@ -12,6 +12,9 @@
 body{
     background-image: url("../midia/fundo3.jpg"); /* Fundo: a imagem com o URL*/
     background-attachment: fixed; /* Fundo: fixado, caso tenha texto ou algo na tela que precisa rolar, ele vai fixar a imagem e mexer apenas o texto*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
     margin: 0;
     padding: 0;
 }
